@@ -2,7 +2,7 @@ import useTheme from 'hooks/useTheme'
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import styled from 'styled-components'
-import SwitchNetwork from 'uikit-dev/components/SwitchNetwork'
+// import SwitchNetwork from 'uikit-dev/components/SwitchNetwork'
 import { Text } from '../../components/Text'
 import logoDesktop from '../../images/mobile_logo.svg'
 import logoWhite from '../../images/logo2.svg'
@@ -50,25 +50,53 @@ const StyledLink = styled(Link)`
 `
 
 const StyleLight = styled.div`
-  border: 2px solid #ececec;
-  border-radius: 10px;
-  padding: 6px;
-  margin: 20px 10px;
+  position: relative;
+  padding: 10px;
+  margin: 10px 5px;
   text-overflow: ellipsis;
   white-space: nowrap;
   display: flex;
   align-items: center;
+
+  &:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    padding: 2px; /* control the border thickness */
+    background: linear-gradient(to right, orange, red, blue);
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    pointer-events: none;
+  }
 `
 
 const StyledDark = styled.div`
-  border: 2px solid #57575b;
-  border-radius: 10px;
-  padding: 6px;
-  margin: 20px 10px;
+  position: relative;
+  padding: 10px;
+  margin: 10px 5px;
   text-overflow: ellipsis;
   white-space: nowrap;
   display: flex;
   align-items: center;
+
+  &:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    padding: 2px; /* control the border thickness */
+    background: linear-gradient(to right, orange, red, blue);
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    pointer-events: none;
+  }
 `
 
 const PanelBody: React.FC<Props> = (props) => {

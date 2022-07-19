@@ -1,5 +1,5 @@
-import polygonBlack from 'uikit-dev/images/for-ui-v2/polygon-black.png'
-import polygonWhite from 'uikit-dev/images/for-ui-v2/polygon-white.png'
+import neobitBlack from 'uikit-dev/images/for-ui-v2/polygon-black.png'
+import neobitWhite from 'uikit-dev/images/for-ui-v2/polygon-white.png'
 import { Colors } from './types'
 
 export const baseColors = {
@@ -28,7 +28,7 @@ export const lightColors: Colors = {
   backgroundBox: 'rgba(186, 191, 199, 0.12)',
   backgroundGray: '#F7F6FB',
   backgroundRadial: 'radial-gradient(#FFFFFF, #e2e7f4)',
-  backgroundPolygon: polygonWhite,
+  backgroundPolygon: neobitWhite,
   backgroundBlueGradient: 'linear-gradient(#0D418E, #349BE7)',
 
   contrast: '#191326',
@@ -68,7 +68,7 @@ export const darkColors: Colors = {
   backgroundBox: 'rgba(186, 191, 199, 0.12)',
   backgroundGray: '#100C18',
   backgroundRadial: '#1A1A1A',
-  backgroundPolygon: polygonBlack,
+  backgroundPolygon: neobitBlack,
   backgroundBlueGradient: 'linear-gradient(#0D418E, #349BE7)',
 
   contrast: '#FFFFFF',

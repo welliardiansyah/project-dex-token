@@ -8,7 +8,7 @@ import CountDownBanner from 'uikit-dev/components/CountDownBanner'
 import StartTimeBanner from 'uikit-dev/components/StartTimeBanner'
 // import SwitchNetwork from 'uikit-dev/components/SwitchNetwork'
 import logoTrade from 'uikit-dev/images/for-trading-challenge/Definix-Trading-Challenge-29.png'
-import colorGradient from 'uikit-dev/images/for-ui-v2/color-gradient.png'
+// import colorGradient from 'uikit-dev/images/for-ui-v2/color-gradient.png'
 import Button from '../../components/Button/Button'
 import { Flex } from '../../components/Flex'
 import Footer from '../../components/Footer'
@@ -58,7 +58,7 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
     position: absolute;
     bottom: 0;
     left: 0;
-    background: url(${colorGradient});
+    background: linear-gradient(to right, orange, red, blue);
     background-size: cover;
   }
 

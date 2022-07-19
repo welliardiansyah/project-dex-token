@@ -4,16 +4,16 @@ import { MenuEntry } from 'uikit-dev'
 // import bridgeWhite from 'uikit-dev/images/for-ui-v2/menu/Bridge-White.png'
 // import farmBlack from 'uikit-dev/images/for-ui-v2/menu/Farm-Black.png'
 // import farmWhite from 'uikit-dev/images/for-ui-v2/menu/Farm-White.png'
+// import mutualBlack from 'uikit-dev/images/for-ui-v2/menu/Mutual-fund-Black.png'
+// import mutualWhite from 'uikit-dev/images/for-ui-v2/menu/Mutual-fund-White.png'
+// import partnerBlack from 'uikit-dev/images/for-ui-v2/menu/Partnership-Black.png'
+// import partnerWhite from 'uikit-dev/images/for-ui-v2/menu/Partnership-White.png'
 import gitbookBlack from 'uikit-dev/images/for-ui-v2/menu/Gitbook-Black.png'
 import gitbookWhite from 'uikit-dev/images/for-ui-v2/menu/Gitbook-White.png'
 import homeBlack from 'uikit-dev/images/for-ui-v2/menu/Home-Black.png'
 import homeWhite from 'uikit-dev/images/for-ui-v2/menu/Home-White.png'
 import liquidityBlack from 'uikit-dev/images/for-ui-v2/menu/Liquidity-Black.png'
 import liquidityWhite from 'uikit-dev/images/for-ui-v2/menu/Liquidity-White.png'
-// import mutualBlack from 'uikit-dev/images/for-ui-v2/menu/Mutual-fund-Black.png'
-// import mutualWhite from 'uikit-dev/images/for-ui-v2/menu/Mutual-fund-White.png'
-// import partnerBlack from 'uikit-dev/images/for-ui-v2/menu/Partnership-Black.png'
-// import partnerWhite from 'uikit-dev/images/for-ui-v2/menu/Partnership-White.png'
 import swapBlack from 'uikit-dev/images/for-ui-v2/menu/Swap-Black.png'
 import swapWhite from 'uikit-dev/images/for-ui-v2/menu/Swap-White.png'
 
@@ -161,7 +161,7 @@ const config: MenuEntry[] = [
     label: 'Contract',
     icon: gitbookBlack,
     iconActive: gitbookWhite,
-    href: '/',
+    href: 'https://bscscan.com/address/0x0b4D95fd2F9b6B1d2d3F0d65990597EE483264B1',
     notHighlight: true,
     newTab: true,
   },
@@ -169,7 +169,7 @@ const config: MenuEntry[] = [
     label: 'Whitepaper',
     icon: gitbookBlack,
     iconActive: gitbookWhite,
-    href: '/',
+    href: 'https://neobit.tech/static/media/NEOBIT.77ea26f7dc1ec3f3350f.pdf',
     notHighlight: true,
     newTab: true,
   },
